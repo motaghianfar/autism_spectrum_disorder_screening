@@ -1,19 +1,18 @@
-# Culture-Aware Autism Screening
+# Autism Spectrum Disorder Screening
 
-[![CI/CD](https://github.com/yourusername/culture-aware-autism-screening/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/yourusername/culture-aware-autism-screening/actions)
+A Python implementation for predicting autism spectrum disorder using machine learning and explainable AI techniques.
 
-A modular framework for detecting and mitigating cultural bias in ASD screening tools.
+## 🚀 Project Overview
 
-## 🚀 Quick Start on GitHub
+This repository contains code for screening and predicting autism based on behavioral and demographic features. It includes:
 
-### Option 1: Clone and Run Locally
-```bash
-# Clone repository
-git clone https://github.com/yourusername/culture-aware-autism-screening.git
-cd culture-aware-autism-screening
+- Data preprocessing and feature engineering  
+- Model training (using LightGBM and classical ML models)  
+- Model evaluation and plotting  
+- Explainable AI / interpretation with SHAP  
+- Visualizations (matplotlib, seaborn, plotly)
 
-# Install dependencies
-pip install -r requirements.txt
+The main script is `autism_prediction_2025.py`.
 
-# Run analysis
-python scripts/run_analysis.py
+## 📂 Repository Structure
+
